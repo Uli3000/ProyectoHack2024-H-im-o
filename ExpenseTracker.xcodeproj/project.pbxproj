@@ -11,6 +11,8 @@
 		98579FCD2C96B28700AB92C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98579FCC2C96B28700AB92C6 /* ContentView.swift */; };
 		98579FCF2C96B28900AB92C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98579FCE2C96B28900AB92C6 /* Assets.xcassets */; };
 		98579FD22C96B28900AB92C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98579FD12C96B28900AB92C6 /* Preview Assets.xcassets */; };
+		98579FD92C96B61E00AB92C6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98579FD82C96B61E00AB92C6 /* Extension.swift */; };
+		98579FDB2C96B72300AB92C6 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98579FDA2C96B72300AB92C6 /* ExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		98579FCC2C96B28700AB92C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98579FCE2C96B28900AB92C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98579FD12C96B28900AB92C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98579FD82C96B61E00AB92C6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		98579FDA2C96B72300AB92C6 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				98579FCC2C96B28700AB92C6 /* ContentView.swift */,
 				98579FCE2C96B28900AB92C6 /* Assets.xcassets */,
 				98579FD02C96B28900AB92C6 /* Preview Content */,
+				98579FD82C96B61E00AB92C6 /* Extension.swift */,
+				98579FDA2C96B72300AB92C6 /* ExpenseView.swift */,
 			);
 			path = ExpenseTracker;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98579FD92C96B61E00AB92C6 /* Extension.swift in Sources */,
 				98579FCD2C96B28700AB92C6 /* ContentView.swift in Sources */,
 				98579FCB2C96B28700AB92C6 /* ExpenseTrackerApp.swift in Sources */,
+				98579FDB2C96B72300AB92C6 /* ExpenseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
